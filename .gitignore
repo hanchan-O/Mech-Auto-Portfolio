@@ -1,0 +1,35 @@
+# CATIA临时文件
+*.CATPart~
+*.CATProduct~
+*.CATDrawing~
+
+# ANSYS临时文件
+*.db
+*.db*
+*.trn
+*.lock
+*.ansys
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.bak
+*~
+
+# 大文件（存储在网盘）
+*.CATPart
+*.CATProduct
+*.stp
+*.step
+*.igs
+*.iges
+
+# 保留文档和图片
+!docs/
+!images/
+!*.pdf
+!*.png
+!*.jpg
